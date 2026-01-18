@@ -63,7 +63,7 @@ public class LoginController {
 
             Stage stage = (Stage) btnLogin.getScene().getWindow();
             stage.setScene(new Scene(root));
-            stage.setTitle("Service Desk");
+            stage.setTitle("Service Desk Application");
 
         } catch (Exception e) {
             e.printStackTrace();
